@@ -1,0 +1,240 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    background-color: #2c3e50;
+    color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+/* Style the navigation bar */
+nav.navbar {
+background-color: #2c3e50;
+}
+
+nav.navbar a.navbar-brand {
+font-size: 24px;
+font-weight: bold;
+color: #fff;
+}
+
+nav.navbar a.nav-link {
+color: #fff;
+font-weight: bold;
+transition: background-color 0.3s; /* Add transition effect for smooth background color change */
+padding: 8px 15px; /* Add padding to the navigation links for better click area */
+border-radius: 5px; 
+margin-right: 10px; /* Add rounded corners to the navigation links */
+}
+
+nav.navbar a.nav-link:hover {
+background-color: #34495e; /* Change the background color on hover */
+}
+
+#about {
+    background-color: #beb5bc;
+    color: #333;
+    padding: 80px 0;
+}
+
+.about-content {
+    background-color: #d6a1ce;
+    color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.about-img img {
+    width: 100%;
+    height: auto; /* Change height to auto for responsiveness */
+    object-fit: cover;
+}
+
+
+
+.about-text {
+    font-size: 18px;
+    line-height: 1.8;
+}
+/* End Header styles */
+
+/* Add any other styles you want to customize here */
+
+/* Style the container */
+.container {
+max-width: 1200px;
+margin: 0 auto;
+}
+
+/* Style the courses section */
+#courses {
+padding: 50px 0;
+background-color:#e3dbe1;
+}
+
+/* Style the card box */
+.card.box {
+border: 1px solid #e0e0e0;
+border-radius: 10px;
+transition: transform 0.3s ease;
+height: 100%;
+
+}
+
+.card.box:hover {
+transform: translateY(-5px);
+}
+
+/* Style the card image */
+.card.box .bg-image {
+position: relative;
+overflow: hidden;
+border-radius: 10px 10px 0 0;
+}
+
+.card.box .bg-image img {
+width: 100%;
+height: 200px; /* Set a fixed height for the card image */
+object-fit: cover;
+}
+
+/* Style the mask overlay */
+.card.box .mask {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(251, 251, 251, 0.8);
+opacity: 0;
+transition: opacity 0.3s ease;
+}
+
+.card.box:hover .mask {
+opacity: 1;
+}
+
+/* Style the card body */
+.card.box .card-body {
+padding: 15px;
+height: 200px; /* Set a fixed height for the card body */
+}
+
+.card.box .card-title {
+font-size: 20px;
+font-weight: bold;
+margin-bottom: 10px;
+}
+
+.card.box .card-text {
+font-size: 16px;
+color: #666;
+}
+
+/* Style the section heading */
+.h1-responsive {
+color: #007bff; /* Blue color for the heading */
+}
+
+/* Style the section description */
+.text-center {
+color: #444;
+}
+
+/* Style the responsive paragraph */
+.w-responsive {
+max-width: 800px;
+margin: 0 auto;
+}
+
+/* Add hover effect for links */
+a {
+color: #007bff;
+text-decoration: none;
+transition: color 0.3s ease;
+}
+
+a:hover {
+color: #0056b3;
+}
+
+/* Clear floating elements within the row */
+.row::after {
+content: "";
+display: table;
+clear: both;
+}
+
+
+/* Add any other styles you want to customize here */
+
+/* Style the gallery section */
+#gallery {
+padding: 50px 0;
+background-color: #beb5bc;
+}
+
+#contact{
+background-color: #e3dbe1;
+}
+
+
+/* Add any other styles you want to customize here */
+
+/* Style the contact section */
+#contact {
+padding: 50px 0;
+}
+
+/* Style the contact form */
+.contact-form {
+max-width: 500px;
+margin: 0 auto;
+}
+
+.contact-form label {
+font-weight: 500;
+}
+
+.contact-form input[type="text"],
+.contact-form textarea {
+background-color: #f8f8f8;
+border: 1px solid #ccc;
+border-radius: 5px;
+padding: 10px;
+width: 100%;
+margin-bottom: 15px;
+}
+
+.contact-form textarea {
+resize: vertical;
+}
+
+.contact-form button {
+background-color: #007bff;
+color: #fff;
+border: none;
+border-radius: 5px;
+padding: 12px 20px;
+font-size: 16px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+background-color: #0056b3;
+}
+
+/* Style the map container */
+.map-container {
+height: 450px;
+border-radius: 10px;
+overflow: hidden;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
